@@ -40,7 +40,7 @@ const MessageForm = (props: MessageFormProps) => {
       <input
         onChange={e => setText(e.target.value)}
         value={text}
-        placeholder="Write a message..."
+        placeholder="Write..."
         className="ce-custom-message-input"
         style={{
           ...styles.messageInput,
@@ -57,6 +57,9 @@ const MessageForm = (props: MessageFormProps) => {
         style={{ ...styles.sendButton }}
       >
         <CaretUpFilled />
+      </button>
+      <button>
+        Test
       </button>
     </form>
   );
