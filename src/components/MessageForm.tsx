@@ -58,8 +58,12 @@ const MessageForm = (props: MessageFormProps) => {
       >
         <CaretUpFilled />
       </button>
-      <button>
-        Test
+      <button
+      type="submit"
+      className="ce-custom-send-button"
+      style={{ ...styles.sendButton }}
+      >
+        Test2
       </button>
     </form>
   );

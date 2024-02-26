@@ -10,9 +10,9 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "react": "link:../node_modules/react",
-    "react-chat-engine-pretty": "link:..",
-    "react-dom": "link:../node_modules/react-dom",
+    "react": "^18.2.0",
+    "react-chat-engine-pretty": "/custom_react-chat-engine-pretty",
+    "react-dom": "^18.2.0",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
